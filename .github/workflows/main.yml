@@ -23,7 +23,7 @@ jobs:
           context: ./src
           file: ./src/Dockerfile
           push: true
-          tags:
+          tags: |
             rafaelmotadasilva/kube-news:v1
             rafaelmotadasilva/kube-news:latest
             
