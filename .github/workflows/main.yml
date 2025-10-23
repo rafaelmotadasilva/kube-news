@@ -22,7 +22,7 @@ jobs:
           context: ./src
           file: ./src/Dockerfile
           push: true
-          tags:
+          tags: |
             - rafaelmotadasilva/kube-news:${{github.run_number}}
             - rafaelmotadasilva/kube-news:latest
 
