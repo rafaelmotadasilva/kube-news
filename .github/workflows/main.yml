@@ -23,8 +23,8 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags: |
-            - rafaelmotadasilva/kube-news:${{github.run_number}}
-            - rafaelmotadasilva/kube-news:latest
+            rafaelmotadasilva/kube-news:${{github.run_number}}
+            rafaelmotadasilva/kube-news:latest
 
   CD:
     runs-on: ubuntu-latest
